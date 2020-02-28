@@ -47,6 +47,21 @@ namespace ListIntro
                     Console.WriteLine("Oh and Go Bulls");
                 }
             }
+
+
+
+            // Dictionaries
+            Dictionary<string, string> student = new Dictionary<string, string>();
+
+            student.Add("Name", "Adam");
+            student.Add("Cohort", "Day 37");
+
+            Dictionary<string, string> anotherStudent = new Dictionary<string, string>()
+            {
+                { "Name", "Brenda" },
+                { "Cohort", "Day 37" }
+            };
+
         }
     }
 }
